@@ -7,7 +7,7 @@
  *	Copyright (c) 2013 Tim Cool, MIT license
  */
 
-
+/* Test Comment  */
 class MenuItem {
 	private $active;
 	private $mode;
