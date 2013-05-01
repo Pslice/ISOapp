@@ -1,0 +1,262 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pos",
+				"post"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"gree",
+				"greeting2"
+			],
+			[
+				"greeting",
+				"greeting2"
+			],
+			[
+				"table",
+				"table_cell"
+			],
+			[
+				"app",
+				"approved_button"
+			],
+			[
+				"mys",
+				"mysqli_execute"
+			],
+			[
+				"customer",
+				"customer_id"
+			],
+			[
+				"wholesale",
+				"wholesale-container"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"mysql_as",
+				"mysql_fetch_assoc"
+			],
+			[
+				"mysql",
+				"mysql_select_db"
+			],
+			[
+				"my",
+				"mysql_connect"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 312.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/config/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/migrations/2013_04_19_235645_create_iso_article.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/migrations/2013_04_19_231902_create_iso_documents.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/views/home/index.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/models/document.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/config/application.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/bundles.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/controllers/document.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/views/master.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/views/nav.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/tasks/generate.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/routes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/views/main/nav.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/views/main/index.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/controllers/main.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/views/main/master.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/laravel/vendor/Symfony/Component/HttpFoundation/composer.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/isostandards/application/config/strings.php",
+		"/Applications/XAMPP/xamppfiles/etc/extra/httpd-vhosts.conf",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/models/user.php",
+		"/Users/tcoolpg/Downloads/cocos2d-1.0.1-x-0.10.0/tests/test.android/default.properties",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/tasks/generate.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/migrations/2013_04_06_211333_set_users_email_to_unique.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/migrations/2013_04_06_210953_add_email_address_to_users_table.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/migrations/2013_04_06_204858_create_users_table.php",
+		"/var/folders/g3/qh1wf9kj3mn9jz231l43jwdm0000gn/T/sublime-sftp-browse-1365061548/ebivibe/home/ebivibe/www/public_html/classes/db/Db.php",
+		"/Users/tcoolpg/Library/Application Support/Sublime Text 2/Packages/SFTP/sftp/sftp-config.json",
+		"/Users/tcoolpg/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/ebivibe",
+		"/var/folders/g3/qh1wf9kj3mn9jz231l43jwdm0000gn/T/sublime-sftp-browse-1365061282/ebivibe/home/ebivibe/www/public_html/classes/Cart.php",
+		"/Users/tcoolpg/Library/Application Support/Sublime Text 2/Packages/SFTP/SFTP.sublime-settings",
+		"/var/folders/g3/qh1wf9kj3mn9jz231l43jwdm0000gn/T/sublime-sftp-browse-1365061025/ebivibe/home/ebivibe/www/public_html/index.html",
+		"/Users/tcoolpg/Library/Application Support/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/var/folders/g3/qh1wf9kj3mn9jz231l43jwdm0000gn/T/sublime-sftp-browse-1365048357/ebivibe/home/ebivibe/www/public_html/ebivibe/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/views/home/test.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/views/home/index.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/views/master.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/views/layout.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/config/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/laravel/view.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/application/config/application.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/learning-laravel/public/.htaccess",
+		"/Applications/XAMPP/xamppfiles/etc/webalizer.conf",
+		"/Applications/XAMPP/xamppfiles/htdocs/prestashop/controllers/front/AuthController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prestashop/modules/wholesale/wholesale.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prestashop/admink04l4/wholesale/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prestashop/modules/wholesale/install.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/prestashop/config/settings.inc.php",
+		"/Users/tcoolpg/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/tcoolpg/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/tcoolpg/Desktop/GridBugMac/GridBugMac/GameGrid.m"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"view",
+			"iew",
+			"make",
+			"sendConfirmationMail"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"composer",
+				"laravel/vendor/Symfony/Component/HttpFoundation/composer.json"
+			],
+			[
+				"rout",
+				"application/routes.php"
+			],
+			[
+				"lview.",
+				"laravel/view.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true
+}

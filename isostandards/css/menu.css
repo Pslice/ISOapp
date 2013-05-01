@@ -1,0 +1,19 @@
+/* 
+ *	menu.css
+ * 	Menu Style Sheet
+ *	Handles additional menu styling
+ *
+ *	Copyright (c) 2013 Tim Cool, MIT license
+ */
+
+ .navbar-fixed-top {
+ 	border-bottom: 1px solid #ddd;
+ }
+
+ .nav-tabs, .nav-tabs:hover {
+ 	border-bottom: none;
+ }
+
+ .navbar .brand {
+ 	margin-left: 0em;
+ }
