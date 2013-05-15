@@ -2,7 +2,7 @@
  *	menu.js
  * 	Menu JavaScript
  *	Handles menu jQuery
- *
+ *OOooooOOoooo
  *	Copyright (c) 2013 Tim Cool, MIT license
  */
 
