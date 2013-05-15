@@ -7,16 +7,16 @@ include("Global.php");
 <html>
 	<head>
 	<?php 
-		App::loadCSS('app');
-		App::loadCSS('menu');
 		App::loadCSS('bootstrap.min');
 		App::loadCSS('bootstrap-editable');
 		App::loadCSS('wysihtml5');
+		App::loadCSS('app');
+		App::loadCSS('menu');
 		App::loadScript('jquery-1.9.1.min');
 		App::loadScript('bootstrap.min');
 		App::loadScript('wysihtml5');
 		App::loadScript('bootstrap-wysihtml5');
-		App::loadScript('bootstrap-editable.min');
+		App::loadScript('bootstrap-editable');
 		App::loadScript('app');
 		App::loadScript('menu');
 	?>

@@ -16,8 +16,25 @@ class FormObject {
 class Form {
 	private $vars = array();
 
-	static private function createFormObjects(){
-		return '<p>testing</p>';
+	static private function createFormObjects($title){
+		$form_html = '<form class="form-inline">
+						<input class="span3" type="text" name="input-title" placeholder="'.$title.' Title">';
+
+		switch ($title) {
+			case 'New Document':
+				$form_html .= '<div class="input-prepend">
+							<span class="add-on">Article Prefix</span>
+							<input class="span2" name="input-article-prefix" type="text" placeholder="prefix">
+							</div>';
+				break;
+			case 'New Article':
+				break;
+			default:
+				break;
+		}
+		$form_html .= '</form>';
+
+		return $form_html;
 	}
 
 	static public function createForms($forms) {
@@ -31,10 +48,10 @@ class Form {
 							<h3>$title</h3>
 						</div>
 						<div class='modal-body'>
-						".self::createFormObjects()."
+						".self::createFormObjects($title)."
 						</div>
 						<div class='modal-footer'>
-							<a href='#' class='btn'>Close</a>
+							<a href='#' class='btn' data-dismiss='modal'>Close</a>
 							<a href='#' class='btn btn-primary'>Save</a>
 						</div>
 					</div>";

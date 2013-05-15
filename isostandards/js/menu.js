@@ -36,7 +36,7 @@ $(document).ready(function(){
 	$('.dropdown-menu').on('click','li a', function(){
 		var type = $(this).attr('class');
 		var title = $(this).parent().find('a').text();
-		console.log(title);
+
 		type = type.split('-');
 
 		switch(type[0]){

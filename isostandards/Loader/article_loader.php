@@ -21,15 +21,16 @@ $html = "<div class='page-header'>
 
 foreach ($sections as $section) {
 	$html .= "
-			<div class='section-contents'>
+			<section class='section-contents'>
 				<h4>".$section['name']."</h4>
 				<div id='section-".$section['id']."' data-pk='1' 
 				data-type='wysihtml5' data-toggle='manual'
 				data-original-title='Section Text' class='editable' tabindex='-1'>"
 			.$section['text']."</div>
-			</div>
+			</section>
+			<script>$('#section-".$section['id']."').editable();</script>
 			<div class='edit-contents'>
-					<a href='#' id='edit-section'><i class='icon-edit'></i> [edit]</a>
+					<a href='#' class='edit-section' value='".$section['id']."'><i class='icon-edit'></i> [edit]</a>
 			</div>";
 }
 

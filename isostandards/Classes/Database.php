@@ -34,6 +34,13 @@ class DataObject extends PDO {
 	public function rowsWithFilter($table, $filter){
 		return $this->query("SELECT * FROM $table WHERE $filter");
 	}
+	public function insertInto($table, $data){
+		$field_names 	= '('.implode(',', array_keys($data) ).')';
+		$values 		= '('.implode(',', $data ).')';
+		$sql ="INSERT INTO $table $field_names VALUES $values ";
+		echo $sql;
+        return $this->query($sql);
+	}
 }
 
 ?>

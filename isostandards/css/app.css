@@ -37,3 +37,18 @@
 	text-align: right;
 	margin: 1em;
 }
+
+.navbar {
+	background-color: #FFF;
+}
+
+.nav-tabs {
+	border-bottom: none;
+}
+.nav-tabs > li > a {
+	border-bottom: none;
+}
+
+.input-prepend {
+	margin-left: 10px;
+}

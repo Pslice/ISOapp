@@ -34,7 +34,7 @@ class App {
 	}
 	public static function displayLoader($size = 'regular'){
 		$html = "<span style='display: block; width: 1em; margin: auto;'>
-					<img src='/img/loading.gif'>
+					<img src='img/loading.gif'>
 				</span>";
 		return $html;
 	}
