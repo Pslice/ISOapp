@@ -3,32 +3,23 @@ include("Global.php");
 
 ?>
 
-
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-wysihtml5.css"></link>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"></link>
-		<script src="js/wysihtml5-0.3.0.js"></script>
-		<script src="js/jquery-1.7.2.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/bootstrap-wysihtml5.js"></script>
 	<?php 
-		//App::loadCSS('bootstrap.min');
-		App::loadCSS('bootstrap-editable');
-		//App::loadCSS('wysihtml5');
 		App::loadCSS('app');
 		App::loadCSS('menu');
-		//App::loadScript('jquery-1.7.2.min');
-		//App::loadScript('bootstrap.min');
-		App::loadScript('bootstrap-editable.min');
-		//App::loadScript('bootstrap-wysihtml5');
+		App::loadCSS('bootstrap.min');
+		App::loadCSS('bootstrap-editable');
+		App::loadCSS('wysihtml5');
+		App::loadScript('jquery-1.9.1.min');
+		App::loadScript('bootstrap.min');
 		App::loadScript('wysihtml5');
+		App::loadScript('bootstrap-wysihtml5');
+		App::loadScript('bootstrap-editable.min');
 		App::loadScript('app');
 		App::loadScript('menu');
-
 	?>
-		
 	</head>
 	<body>
 	<?php

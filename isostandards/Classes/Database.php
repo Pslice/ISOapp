@@ -8,8 +8,7 @@
  *	Copyright (c) 2013 Tim Cool, MIT license
  */
 
-define('DB_USER', 'root');
-define('DB_PASS', '');
+require("../Configuration/dbConfig.php");
 
 class Database {
 	protected static $db = NULL;
@@ -19,7 +18,7 @@ class Database {
 	public static function get(){
 		if(is_null(self::$db)){
 			try {
-				self::$db = new DataObject('mysql:host=localhost;dbname=isoStandards', DB_USER, DB_PASS); 
+				self::$db = new DataObject(DB_INFO, DB_USER, DB_PASS); 
 			}catch(PDOException $error) {
 				echo 'Error: '.$error->getMessage();
 			}

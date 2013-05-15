@@ -37,3 +37,4 @@ publish
 .idea
 
 sftp-config.json
+dbConfig.php

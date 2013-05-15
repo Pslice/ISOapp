@@ -10,10 +10,10 @@
 class App {
 
 	public static function loadCSS( $filename ) {
-		echo "<link rel='stylesheet' href='/css/".$filename.".css' type='text/css' media='screen'>";
+		echo "<link rel='stylesheet' href='css/".$filename.".css' type='text/css' media='screen'>";
 	}
 	public static function loadScript( $filename ) {
-		echo "<script type='text/javascript' src='/js/".$filename.".js'></script>";
+		echo "<script type='text/javascript' src='js/".$filename.".js'></script>";
 	}
 	public static function displayMenuBar($title, $menuItems) {
 		$html = "<div class='navbar navbar-fixed-top'>
