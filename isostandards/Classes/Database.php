@@ -8,8 +8,6 @@
  *	Copyright (c) 2013 Tim Cool, MIT license
  */
 
-require("../Configuration/dbConfig.php");
-
 class Database {
 	protected static $db = NULL;
 
@@ -18,6 +16,7 @@ class Database {
 	public static function get(){
 		if(is_null(self::$db)){
 			try {
+				include_once("../Configuration/dbConfig.php");
 				self::$db = new DataObject(DB_INFO, DB_USER, DB_PASS); 
 			}catch(PDOException $error) {
 				echo 'Error: '.$error->getMessage();
